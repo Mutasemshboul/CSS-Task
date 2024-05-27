@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Details</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        table {
+            margin: 20px auto;
+            width: 50%;
+
+        }
+        th, td {
+            border: 1px solid;
+            padding: 8px;
+        }
+        th {
+            background-color: yellow;
+            font-weight: bold;
+            text-align: center;
+        }
+        th {
+            text-align: right;
+        }
+       
+        td {
+            text-align: center;
+        }
+        td.nameAge {
+            text-align: left;
+        }
+        td.name.highlight {
+            text-align: center;
+        }
+        .highlight {
+            background-color: pink;
+        }
+        .footer {
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ninja Details</h1>
+    <table>
+        <tr>
+            <th class="name">Name</th>
+            <th class="AgeGrade">Age</th>
+            <th class="AgeGrade">Grade</th>
+        </tr>
+        <tr>
+            <td class="highlight name">Ninja A</td>
+            <td class="nameAge">18</td>
+            <td class="nameAge">B</td>
+        </tr>
+        <tr>
+            <td class="nameAge">Ninja B</td>
+            <td class="nameAge">23</td>
+            <td class="nameAge">C</td>
+        </tr>
+        <tr>
+            <td class="nameAge">Ninja C</td>
+            <td class="nameAge">22</td>
+            <td class="nameAge">A</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="footer">Ninja C - the best learner!</td>
+        </tr>
+    </table>
+</body>
+</html>
