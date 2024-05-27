@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Sign In</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f2ef;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 20px 40px;
+            text-align: center;
+            width: 300px;
+        }
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 120px;
+        }
+        .container h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-align: start;
+        }
+        .container p {
+            font-size: 14px;
+            color: #666666;
+            margin-bottom: 50px;
+            text-align: start;
+        }
+        .container input{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+        }
+        .container .show {
+            display: block;
+            text-align: right;
+            margin-top: -40px;
+            margin-bottom: 20px;
+            color: #0073b1;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .container .forgot-password {
+            display: block;
+            margin-bottom: 20px;
+            color: #0073b1;
+            text-decoration: none;
+            font-size: 14px;
+            text-align: start;
+
+        }
+        .container .btn {
+            background-color: #0073b1;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .container .or {
+            margin: 20px 0;
+            font-size: 14px;
+            color: #666666;
+        }
+        .container .apple-btn {
+            background-color: white;
+            color: black;
+            padding: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 50px;
+            width: 100%;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .container .footer {
+            font-size: 14px;
+            color: #666666;
+            margin-top: 20px;
+        }
+        .container .footer a {
+            color: #0073b1;
+            text-decoration: none;
+        }
+        .page-footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background-color: #f3f2ef;
+            padding: 10px 0;
+            font-size: 12px;
+            color: #666666;
+        }
+        .page-footer a {
+            color: #666666;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="LinkedIn Logo" class="logo">
+    <div class="container">
+        <h1 id="h1">Sign in</h1>
+        <p>Stay updated on your professional world</p>
+        <input type="text" placeholder="Email or Phone">
+        <input type="password" placeholder="Password">
+        <span class="show">show</span>
+        <a href="#" class="forgot-password">Forgot password?</a>
+        <button class="btn">Sign in</button>
+        <div class="or">or</div>
+        <button class="apple-btn"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple Logo" style="width: 20px; vertical-align: middle;"> Sign in with Apple</button>
+        <div class="footer">
+            New to LinkedIn? <a href="#">Join now</a>
+        </div>
+    </div>
+    <div class="page-footer">
+        <a href="#">LinkedIn © 2021</a>
+        <a href="#">User Agreement</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Community Guidelines</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Copyright Policy</a>
+        <a href="#">Send Feedback</a>
+        <a href="#">Language</a>
+    </div>
+</body>
+</html>
